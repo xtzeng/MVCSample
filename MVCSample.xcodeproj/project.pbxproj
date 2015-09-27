@@ -420,6 +420,7 @@
 				A6281BBD1B92EF97008A32ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6281BBE1B92EF97008A32ED /* Build configuration list for PBXNativeTarget "MVCSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				A6281BC01B92EF97008A32ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
