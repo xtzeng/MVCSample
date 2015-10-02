@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A618BA1F1BB84C1200666F76 /* SliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = A618BA1E1BB84C1200666F76 /* SliderController.m */; };
 		A6281B9B1B92EF97008A32ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6281B9A1B92EF97008A32ED /* main.m */; };
 		A6281B9E1B92EF97008A32ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6281B9D1B92EF97008A32ED /* AppDelegate.m */; };
 		A6281BA11B92EF97008A32ED /* MVCSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6281B9F1B92EF97008A32ED /* MVCSample.xcdatamodeld */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A618BA1D1BB84C1200666F76 /* SliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderController.h; sourceTree = "<group>"; };
+		A618BA1E1BB84C1200666F76 /* SliderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderController.m; sourceTree = "<group>"; };
 		A6281B951B92EF97008A32ED /* MVCSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6281B991B92EF97008A32ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6281B9A1B92EF97008A32ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 				A6281BAA1B92EF97008A32ED /* LaunchScreen.xib */,
 				A6281B9F1B92EF97008A32ED /* MVCSample.xcdatamodeld */,
 				A6281B981B92EF97008A32ED /* Supporting Files */,
+				A618BA1D1BB84C1200666F76 /* SliderController.h */,
+				A618BA1E1BB84C1200666F76 /* SliderController.m */,
 			);
 			path = MVCSample;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A618BA1F1BB84C1200666F76 /* SliderController.m in Sources */,
 				A6281B9E1B92EF97008A32ED /* AppDelegate.m in Sources */,
 				A6281B9B1B92EF97008A32ED /* main.m in Sources */,
 				A6281BA41B92EF97008A32ED /* ViewController.m in Sources */,

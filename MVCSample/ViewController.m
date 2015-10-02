@@ -14,6 +14,8 @@
 
 @implementation ViewController
 
+@synthesize label;
+
 - (void)viewDidLoad {
     
     [super viewDidLoad];

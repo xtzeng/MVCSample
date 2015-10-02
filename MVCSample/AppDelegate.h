@@ -9,7 +9,13 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
+//@class SliderController;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+//{
+//    UIWindow *window;
+//    SliderController *sliderController;
+//}
 
 @property (strong, nonatomic) UIWindow *window;
 

@@ -8,11 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITextFieldDelegate>
+@interface ViewController : UIViewController <UITextFieldDelegate> {
+    UILabel *label;
+}
+
+@property (nonatomic,retain) IBOutlet UILabel *label;
 @property (weak,nonatomic) IBOutlet UIButton *myButton;
 @property (weak,nonatomic) IBOutlet UITextField *myTextField;
 
 -(IBAction)myAction:(id)sender;
+-(IBAction)sayHello;
 
 @end
 
