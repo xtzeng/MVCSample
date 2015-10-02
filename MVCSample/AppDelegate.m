@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "MyTest1.h"
+#import "MyTest2.h"
+#import "MyTest3.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +21,21 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     NSLog(@"系统回调didFinishLaunchingWithOptions");
+    MyTest1* mytest1 = [[MyTest1 alloc] init];
+    [mytest1 print];
+    //NSLog(@"%@",mytest1.myStr); 不能通过此方式访问
+    
+    MyTest2 *myTest2 = [[MyTest2 alloc] init];
+    myTest2.print;
+    myTest2.myStr = @"myTest2.myStr==方式二通过点调用";
+    NSLog(@"%@",myTest2.myStr);
+    
+    
+    MyTest3* myTest3 =[[MyTest3 alloc] init];
+    [myTest3 print];
+    myTest3.myStr=@"myTest3.myStr==方式三通过点调用";
+    NSLog(@"%@",myTest3.myStr);
+    
     return YES;
 }
 

@@ -16,6 +16,9 @@
 		A6281BA91B92EF97008A32ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6281BA81B92EF97008A32ED /* Images.xcassets */; };
 		A6281BAC1B92EF97008A32ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6281BAA1B92EF97008A32ED /* LaunchScreen.xib */; };
 		A6281BB81B92EF97008A32ED /* MVCSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6281BB71B92EF97008A32ED /* MVCSampleTests.m */; };
+		A67050931BBECA2300B65763 /* MyTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = A67050921BBECA2300B65763 /* MyTest1.m */; };
+		A6CEEC111BBED297007947D1 /* MyTest2.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CEEC101BBED297007947D1 /* MyTest2.m */; };
+		A6CEEC141BBED2DA007947D1 /* MyTest3.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CEEC131BBED2DA007947D1 /* MyTest3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,12 @@
 		A6281BB11B92EF97008A32ED /* MVCSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVCSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6281BB61B92EF97008A32ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6281BB71B92EF97008A32ED /* MVCSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCSampleTests.m; sourceTree = "<group>"; };
+		A67050911BBECA2300B65763 /* MyTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTest1.h; sourceTree = "<group>"; };
+		A67050921BBECA2300B65763 /* MyTest1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTest1.m; sourceTree = "<group>"; };
+		A6CEEC0F1BBED297007947D1 /* MyTest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTest2.h; sourceTree = "<group>"; };
+		A6CEEC101BBED297007947D1 /* MyTest2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTest2.m; sourceTree = "<group>"; };
+		A6CEEC121BBED2DA007947D1 /* MyTest3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTest3.h; sourceTree = "<group>"; };
+		A6CEEC131BBED2DA007947D1 /* MyTest3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTest3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +106,12 @@
 				A6281B981B92EF97008A32ED /* Supporting Files */,
 				A618BA1D1BB84C1200666F76 /* SliderController.h */,
 				A618BA1E1BB84C1200666F76 /* SliderController.m */,
+				A67050911BBECA2300B65763 /* MyTest1.h */,
+				A67050921BBECA2300B65763 /* MyTest1.m */,
+				A6CEEC0F1BBED297007947D1 /* MyTest2.h */,
+				A6CEEC101BBED297007947D1 /* MyTest2.m */,
+				A6CEEC121BBED2DA007947D1 /* MyTest3.h */,
+				A6CEEC131BBED2DA007947D1 /* MyTest3.m */,
 			);
 			path = MVCSample;
 			sourceTree = "<group>";
@@ -230,7 +245,10 @@
 				A618BA1F1BB84C1200666F76 /* SliderController.m in Sources */,
 				A6281B9E1B92EF97008A32ED /* AppDelegate.m in Sources */,
 				A6281B9B1B92EF97008A32ED /* main.m in Sources */,
+				A67050931BBECA2300B65763 /* MyTest1.m in Sources */,
 				A6281BA41B92EF97008A32ED /* ViewController.m in Sources */,
+				A6CEEC141BBED2DA007947D1 /* MyTest3.m in Sources */,
+				A6CEEC111BBED297007947D1 /* MyTest2.m in Sources */,
 				A6281BA11B92EF97008A32ED /* MVCSample.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
